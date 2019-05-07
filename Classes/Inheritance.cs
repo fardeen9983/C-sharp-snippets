@@ -50,12 +50,19 @@ namespace C_sharp_snippets.Classes
             Base b = new Base(5);
             Derived d = new Derived(4, 7);
 
+            //Inheritance allows a base class refernce to refer to a derived class object.
+            //This prevents it from accessing any unique members of the derived class
+            Base bd = new Derived(6, 10);
+
             //Base methods
             b.printA();
 
             //Derived methods
             d.printA();
             d.printB();
+            bd.printA();
+            //bd.printB(); Not allowed
+
 
         }
     }
