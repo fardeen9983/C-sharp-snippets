@@ -12,7 +12,7 @@ namespace C_sharp_snippets.Collections
             //Declaration : Type [] name;
 
             //Integer array
-            int[] nums = { 1,3,4,5,7,89 };
+            int[] nums = { 1, 3, 4, 5, 7, 89 };
 
             //Access array elements by index
             Console.WriteLine(nums[0]);
